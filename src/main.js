@@ -1,14 +1,18 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import { navbar } from './components/navbar.js'
 import { landingMain } from './components/landing-main.js'
+import { component1 } from './components/componen1.js'
 
 document.querySelector('#app').innerHTML = `
 ${navbar}
 
-<div>${landingMain}</div>
+${landingMain}
+
+<div>
+    ${component1}
+</div>
+
 
 `
 
