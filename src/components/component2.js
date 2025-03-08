@@ -1,5 +1,5 @@
-export const component1 = `
-    <section class=" py-24 relative xl:mr-0 lg:mr-5 mr-0 overflow-hidden">
+export const component2 = `
+    <section class="mt-[70px] py-24 relative xl:mr-0 lg:mr-5 mr-0 overflow-hidden">
     <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
         <!-- Decorative elements - updated with feminine theme colors -->
         <div class="absolute inset-0 z-0 opacity-5">
@@ -8,19 +8,31 @@ export const component1 = `
         </div>
         
         <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1 relative z-10">
-            <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+            
+            <div class="w-full lg:justify-start justify-center items-start flex">
+                <div class="relative sm:w-[564px] w-full sm:h-[646px] h-full fade-in-right">
+                    <div class="absolute top-0 right-0 w-full h-full bg-rose-100 rounded-3xl transform translate-x-3 translate-y-3"></div>
+                    <div class="relative w-full h-full bg-white rounded-3xl shadow-lg border border-rose-200 overflow-hidden">
+                        <img class="w-full h-full object-cover hover:scale-[1.03] transition-all duration-700 ease-in-out" 
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg/440px-Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg"
+                            alt="Indira gandi image" />
+                    </div>
+                </div>
+            </div>
+        
+        <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                 <div class="w-full flex-col justify-center items-start gap-8 flex">
                     <div class="flex-col justify-start lg:items-start items-center gap-4 flex">
                         <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                             <h2 class="text-rose-700 text-4xl font-extrabold font-manrope leading-normal lg:text-start text-center fade-in" style="animation-delay: 0.2s">
                                 
-                                Indira Gandhi
+                                Kalpana Chawla
 
                             </h2>
                             <p class="text-gray-700 text-base font-normal leading-relaxed lg:text-start text-center fade-in" style="animation-delay: 0.4s">
 
-                                Indira Gandhi (1917–1984) was India’s first and only female Prime Minister, serving from 1966 to 1977 and 1980 to 1984. Known for her strong leadership, she led India during the Bangladesh Liberation War and implemented economic reforms. She was assassinated in 1984, leaving a lasting impact on Indian politics.
-                            
+                                Kalpana Chawla was an Indian-American astronaut and aerospace engineer. She became the first woman of Indian origin in space, flying on Space Shuttle Columbia in 1997. Tragically, she died in 2003 during the Columbia disaster. Her legacy inspires aspiring astronauts and scientists worldwide.
+
                             </div>
                     </div>
                     
@@ -28,16 +40,7 @@ export const component1 = `
                 </div>
                 
             </div>
-            <div class="w-full lg:justify-start justify-center items-start flex">
-                <div class="relative sm:w-[564px] w-full sm:h-[646px] h-full fade-in-right">
-                    <div class="absolute top-0 right-0 w-full h-full bg-rose-100 rounded-3xl transform translate-x-3 translate-y-3"></div>
-                    <div class="relative w-full h-full bg-white rounded-3xl shadow-lg border border-rose-200 overflow-hidden">
-                        <img class="w-full h-full object-cover hover:scale-[1.03] transition-all duration-700 ease-in-out" 
-                            src="https://foreignpolicy.com/wp-content/uploads/2021/08/indira-gandhi-vertical.jpg?quality=90" 
-                            alt="Indira gandi image" />
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 
